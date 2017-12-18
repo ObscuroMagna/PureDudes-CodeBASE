@@ -1,0 +1,4 @@
+Import-Csv -Header First, Last, sam, Email, title, pager, Phone, mobile, Office C:\etanenbaum\Desktop\test.csv | % {
+
+Set-ADUser $_.sam -Title $_.title -Mobile $_.mobile -Email $_.Email -Pager $_.pager -Office $_.office
+}
