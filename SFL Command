@@ -1,0 +1,1 @@
+/usr/bin/sfltool add-item -n "foobar" com.apple.LSSharedFileList.FavoriteServers "afp://foo.bar"
